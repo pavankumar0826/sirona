@@ -17,7 +17,7 @@ function PeriodCare() {
             </div>
 
             <div className="text">
-                <h2>PERIOD CARE</h2>
+                <h2>PERIOD CAREING</h2>
             </div>
 
             <div className="products">
