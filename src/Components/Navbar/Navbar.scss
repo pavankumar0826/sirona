@@ -1,0 +1,59 @@
+/* .header {
+
+    background-color: #FFE0EA;
+
+} */
+
+.header{
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.sreachBar_AND_Icons {
+
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+
+    .logo{
+
+        img{
+
+            background-color: #FF80A9;
+        }
+    }
+
+    .search_bar {
+
+        .form-control {
+
+           border: none;
+           box-shadow: inset 0 0 5px #bcbbbb;
+        }
+    }
+
+}
+
+.nav_links {
+
+    ul {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding: 1em 0em;
+
+        li {
+
+            a {
+                padding: 0em 1.5em;
+                font-weight: 350;
+                color: #000;
+            }
+        }
+
+    }
+}

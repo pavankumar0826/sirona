@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+
+/* PAGES IMPORATION */
+import Homepage from './Pages/HomePage/Homepage'
+import ShopAll from './Pages/ShopAllPage/ShopAll';
+import PeriodCare from './Pages/PeriodCarePage/Period';
+import IntimateCare from './Pages/IntimateCarePage/IntimateCare';
+import ToiletHygiene from './Pages/ToiletHygienePage/ToiletHygienePage';
+import Hairremoval from './Pages/HairRemovalPage/Hairremoval';
+import Footer from './Components/Footer/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/Homepage' element={<Homepage />} />
+        <Route path='/shopall' element={<ShopAll />} />
+        <Route path='/periodcare' element={<PeriodCare />} />
+        <Route path='/intimatecare' element={<IntimateCare />} />
+        <Route path='/toilethygiene' element={<ToiletHygiene />}></Route>
+        <Route path='/hairremoval' element={<Hairremoval />}></Route>
+      </Routes>
+      <Footer />
+    </>
   );
 }
 

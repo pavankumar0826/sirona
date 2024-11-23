@@ -1,0 +1,39 @@
+
+.Footer_section{
+
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%; 
+    justify-content: center;
+    align-items: baseline;
+
+    div{
+
+        p{
+            font-weight: 600;
+            font-size: 14px;
+            // text-align: center;
+        }
+
+        ul{
+            li{
+                list-style: none;
+
+                a{
+
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 2em;
+                }
+            }
+        }
+    }
+}
+
+.copy_right{
+
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: baseline;
+    margin: 1.5em 0em;
+}

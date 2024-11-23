@@ -1,0 +1,26 @@
+
+.FestiveReady_Section{
+
+    padding: 3em 0em;
+    .text{
+        text-align: center;
+    }
+
+    .images{
+
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        padding: 20px 0px;
+
+        .image{
+
+            img{
+
+                width: 100%;
+            }
+        }
+    }
+}

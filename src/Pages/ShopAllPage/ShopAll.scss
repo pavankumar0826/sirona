@@ -1,0 +1,39 @@
+.All_products_Section {
+
+    padding: 4em 0em;
+
+    .text {
+        text-align: center;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 2em 0em;
+        text-align: justify;
+        
+
+        .product {
+
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            padding: 0 10px;
+            line-height: 4em;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                transition: all 0.5s ease-in-out;
+                overflow: hidden;
+
+                &:hover {
+
+                    transform: scale(1.05);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

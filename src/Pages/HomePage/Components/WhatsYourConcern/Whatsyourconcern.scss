@@ -1,0 +1,38 @@
+.WhatsYourConcernSection {
+
+    margin: 3em 0em;
+
+    .Heading {
+
+        h3 {
+            text-align: center;
+            padding: 20px 0px;
+        }
+    }
+
+    .images {
+
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15% 15%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .image {
+
+            img {
+
+                width: 60%;
+                border: 5px solid #FF80A9;
+                border-radius: 50px;
+            }
+
+            p {
+
+                font-weight: bold;
+                font-size: 14px;
+                padding: 15px 0px;
+            }
+        }
+    }
+}
