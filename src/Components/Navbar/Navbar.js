@@ -12,7 +12,6 @@ function Navbar() {
     return (
 
         <>
-            <Button variant="primary">Primary</Button>
             <div className='header'>
                 <div className="sreachBar_AND_Icons">
 
